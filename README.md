@@ -6,7 +6,7 @@ This project targets the **Avionics PCBA (Printed Circuit Board Assembly) produc
  🛠️ Technical Stack
 - Language: Python
 - Libraries: Pandas, NumPy, Scikit-Learn (Random Forest), Seaborn, Matplotlib
-- Model Accuracy: R² Score = 0.94 (High precision in defect prediction)
+- Model Accuracy: R² Score = 0.9947 (High precision in defect prediction)
 
 📈 Business Impact (The "So-What")
 - Root Cause Identified: The model confirms that **Reflow Oven Temperature (>255°C) and Humidity (>60%) are the primary drivers of defects.
