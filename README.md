@@ -1,17 +1,32 @@
-✈️ Avionics Manufacturing: Defect Prediction & ROI Model
+  Sustainable Aviation Fuel (SAF) Pricing & Cost Simulator
 
-📌 Project Overview
-This project targets the **Avionics PCBA (Printed Circuit Board Assembly) production line**. I developed a predictive analytics framework to identify environmental factors driving manufacturing defects and simulated the financial impact of data-driven process optimization.
+   What is this project?
+The aviation industry is being forced to transition from traditional Jet-A1 fuel to Sustainable Aviation Fuel (SAF) to meet global carbon emission goals. The problem? SAF is currently much more expensive. 
 
- 🛠️ Technical Stack
-- Language: Python
-- Libraries: Pandas, NumPy, Scikit-Learn (Random Forest), Seaborn, Matplotlib
-- Model Accuracy: R² Score = 0.9947 (High precision in defect prediction)
+This project is a Python-based simulator that forecasts the "price premium" (the cost difference) between regular Jet-A1 and SAF under different future scenarios, such as rising crude oil prices or new government carbon taxes.
 
-📈 Business Impact (The "So-What")
-- Root Cause Identified: The model confirms that **Reflow Oven Temperature (>255°C) and Humidity (>60%) are the primary drivers of defects.
-- Cost Avoidance: By implementing the model's recommended thresholds, the factory can reduce defect rates from 3.5% to 0.5%.
-- Projected Savings: Approximately RM 1.8 Million per year for a standard production volume.
+   Why does this matter? 
 
-🚀 Career Goal
-Currently pursuing a degree in Applied Business Analytics. Seeking an internship (Oct 2026 - Jan 2027) where I can apply machine learning to solve real-world industrial challenges.
+I built this model to provide data-driven answers for two different industrial perspectives:
+
+  1. For Commodity & Market Analysts:  
+ It provides a framework to track how ESG regulations (like Carbon Taxes) directly impact aviation fuel pricing. 
+  It models the price spread between fossil fuels and biofuels, offering a baseline for commodity forecasting.
+
+  2. For Aerospace Operations & Supply Chain:  
+  Fuel transition isn't just an environmental issue; it's a massive operational cost.
+  This model helps procurement and operations teams visualize future cost pressures, allowing them to hedge risks and adjust supply chain budgets before the regulations hit.
+
+   How it works (Methodology)
+Instead of just relying on static historical data, this tool uses a dynamic sensitivity analysis approach:
+1.   Data Source:   Historical Jet-A1 and Crude Oil pricing trends (sourced from Kaggle public datasets).
+2.   Simulation Variables:   I introduced adjustable variables like "Carbon Tax per Ton" and "SAF Production Subsidy".
+3.   Output:   The code generates a clear comparison chart showing when SAF might reach "price parity" (cost the same as traditional fuel) under specific economic conditions.
+
+   Technical Stack
+    Language:   Python
+    Libraries:   Pandas (for data manipulation), Matplotlib/Seaborn (for trend visualization).
+    Core Concept:   Scenario Planning & Sensitivity Analysis.
+
+---
+ Created by Goh Eng Hong (Alex) - Applied Business Analytics student. 
